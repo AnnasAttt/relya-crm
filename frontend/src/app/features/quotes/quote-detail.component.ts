@@ -44,7 +44,7 @@ import { MadPipe, ModalComponent, PillComponent } from '../../shared/ui';
               <button class="btn-primary" (click)="openSend()">Envoyer au client</button>
             }
             @case ('ENVOYE') {
-              <button class="btn-secondary" (click)="showAssistant.set(true)">✨ Rédiger une relance</button>
+              <button class="btn-secondary" (click)="showAssistant.set(true)">Rédiger une relance</button>
               <button class="btn-secondary" (click)="whatsapp()">WhatsApp</button>
               <button class="btn-secondary" (click)="openSend()">Renvoyer</button>
               <button class="btn-danger" (click)="refuse()">Refusé</button>

@@ -37,7 +37,7 @@ import { MadPipe, PillComponent } from '../../shared/ui';
         <div class="flex flex-wrap gap-2">
           <a [routerLink]="['/opportunities', o.id, 'edit']" class="btn-secondary">Modifier</a>
           <button class="btn-secondary" (click)="showActivity.set(true)">Planifier</button>
-          <button class="btn-secondary" (click)="showAssistant.set(true)">✨ Rédiger une relance</button>
+          <button class="btn-secondary" (click)="showAssistant.set(true)">Rédiger une relance</button>
           @if (o.stage !== 'GAGNEE' && o.stage !== 'PERDUE') {
             <a [routerLink]="['/quotes/new']" [queryParams]="{ opportunityId: o.id }" class="btn-primary">+ Devis</a>
           }

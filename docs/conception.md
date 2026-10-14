@@ -47,18 +47,18 @@ Chaque rôle porte un ensemble de permissions, vérifiées par l'API (`@PreAutho
 
 | Permission | Admin | Directeur | Commercial | Support | Client |
 |---|:-:|:-:|:-:|:-:|:-:|
-| Utilisateurs, rôles, paramètres, droits 09-08 | ✔ | | | | |
-| Journal d'audit | ✔ | ✔ | | | |
-| Entreprises et contacts : lecture | ✔ | ✔ | ✔ | ✔ | |
-| Entreprises et contacts : écriture / suppression | ✔ | ✔ / ✔ | ✔ / — | | |
-| Leads, pipeline, devis, activités | ✔ | ✔ | ✔ | | |
-| Attribuer les leads, valider les devis importants | ✔ | ✔ | | | |
-| Modifier le portefeuille des autres commerciaux | ✔ | ✔ | | | |
-| Tableau de bord personnel / de l'équipe | ✔ | ✔ / ✔ | ✔ / — | | |
-| Fixer les objectifs | ✔ | ✔ | | | |
-| Tickets SAV | ✔ | | | ✔ | |
-| Portail client (ses devis, factures, tickets) | | | | | ✔ |
-| Export / import | ✔ | ✔ | ✔ | | |
+| Utilisateurs, rôles, paramètres, droits 09-08 | Oui | | | | |
+| Journal d'audit | Oui | Oui | | | |
+| Entreprises et contacts : lecture | Oui | Oui | Oui | Oui | |
+| Entreprises et contacts : écriture / suppression | Oui | Oui / Oui | Oui / — | | |
+| Leads, pipeline, devis, activités | Oui | Oui | Oui | | |
+| Attribuer les leads, valider les devis importants | Oui | Oui | | | |
+| Modifier le portefeuille des autres commerciaux | Oui | Oui | | | |
+| Tableau de bord personnel / de l'équipe | Oui | Oui / Oui | Oui / — | | |
+| Fixer les objectifs | Oui | Oui | | | |
+| Tickets SAV | Oui | | | Oui | |
+| Portail client (ses devis, factures, tickets) | | | | | Oui |
+| Export / import | Oui | Oui | Oui | | |
 
 Portefeuille : un commercial consulte toutes les entreprises et opportunités, mais ne modifie que les siennes ;
 il ne voit que ses leads et ceux qui ne sont pas encore attribués.
@@ -108,13 +108,13 @@ La déclaration du traitement auprès de la CNDP reste une démarche administrat
 
 | Exigence | État |
 |---|---|
-| Module 1 — Authentification, mot de passe oublié, déconnexion, RBAC, profil, journal des connexions | ✅ |
-| Module 2 — CRUD, archivage, recherche, fiche 360°, segmentation (tags, secteur, ville, statut), import CSV, export CSV / Excel | ✅ |
-| Module 3 — Leads : saisie, formulaire web, import ; qualification ; attribution ; conversion | ✅ |
-| Module 4 — Kanban 6 étapes, montant / probabilité / clôture, motif de perte obligatoire | ✅ |
-| Module 5 — Catalogue, devis PDF + e-mail, statuts brouillon / envoyé / accepté / refusé (+ validation, facture) | ✅ |
-| Module 6 — Planification liée au client, calendrier partagé, rappels notification / e-mail, historique automatique | ✅ |
-| Module 7 — Tickets agent et portail, priorité / statut / assignation / délai, notification au client | ✅ |
-| Module 8 — CA réalisé et prévisionnel, conversion, performance par commercial, tickets ouverts, délai moyen, export PDF et Excel | ✅ |
-| Valeur ajoutée — scoring IA, assistant de rédaction, relances automatiques, notifications WebSocket, intégrations (SMTP, iCal, WhatsApp), DevOps | ✅ (6 sur 6) |
-| Non fonctionnel — JWT, BCrypt, HTTPS, SQLi / XSS, responsive, français, Docker, sauvegarde quotidienne, couches, tests, Swagger, loi 09-08, traçabilité | ✅ (voir limites dans le README) |
+| Module 1 — Authentification, mot de passe oublié, déconnexion, RBAC, profil, journal des connexions | Réalisé |
+| Module 2 — CRUD, archivage, recherche, fiche 360°, segmentation (tags, secteur, ville, statut), import CSV, export CSV / Excel | Réalisé |
+| Module 3 — Leads : saisie, formulaire web, import ; qualification ; attribution ; conversion | Réalisé |
+| Module 4 — Kanban 6 étapes, montant / probabilité / clôture, motif de perte obligatoire | Réalisé |
+| Module 5 — Catalogue, devis PDF + e-mail, statuts brouillon / envoyé / accepté / refusé (+ validation, facture) | Réalisé |
+| Module 6 — Planification liée au client, calendrier partagé, rappels notification / e-mail, historique automatique | Réalisé |
+| Module 7 — Tickets agent et portail, priorité / statut / assignation / délai, notification au client | Réalisé |
+| Module 8 — CA réalisé et prévisionnel, conversion, performance par commercial, tickets ouverts, délai moyen, export PDF et Excel | Réalisé |
+| Valeur ajoutée — scoring IA, assistant de rédaction, relances automatiques, notifications WebSocket, intégrations (SMTP, iCal, WhatsApp), DevOps | Réalisé (6 sur 6) |
+| Non fonctionnel — JWT, BCrypt, HTTPS, SQLi / XSS, responsive, français, Docker, sauvegarde quotidienne, couches, tests, Swagger, loi 09-08, traçabilité | Réalisé (voir limites dans le README) |
